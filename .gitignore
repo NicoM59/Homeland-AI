@@ -17,3 +17,10 @@ data/
 # Python
 __pycache__/
 .venv/
+
+# Exclure les images et graphiques statiques
+*.png
+*.jpg
+*.jpeg
+*.gif
+reports/figures/
