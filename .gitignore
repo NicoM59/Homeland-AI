@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Modèles et Checkpoints (Trop lourds)
+*.pt
+*.safetensors
+*.joblib
+checkpoint-*/
+
+# Données (À garder en local uniquement)
+data/
+*.csv
+
+# Rapports volumineux (HTML interactifs)
+*.html
+
+# Python
+__pycache__/
+.venv/
